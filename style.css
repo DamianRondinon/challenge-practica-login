@@ -16,9 +16,13 @@ body {
   max-width: 100%;
   max-height: 100%;
   font-family: "Poppins", sans-serif;
-  background-image: url(imgs/principal.jpg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(imgs/Principal.png);
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 a {
@@ -27,11 +31,6 @@ a {
 
 li {
   list-style: none;
-}
-
-main {
-  width: 100%;
-  height: 100%;
 }
 
 header {
@@ -51,32 +50,31 @@ nav {
   width: 100%;
 }
 
-.item a{
-    font-weight: bold;
-    color: rgb(0, 0, 0);
+.item a {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
 }
 
-.item a::after{
-    content: '';
-    display: flex;
-    width: 100px;
-    height: 1px;
-    margin-top: 15px;
-    background-color: black;
+.item a::after {
+  content: "";
+  display: flex;
+  width: 100px;
+  height: 1px;
+  margin-top: 15px;
+  background-color: black;
 }
 
-span{
-    font-size: 0.6rem;
-    display: flex;
-    margin-top: 50px;
-    margin-left: -100px;
-    color: #6c757d;
-    
+span {
+  font-size: 0.6rem;
+  display: flex;
+  margin-top: 50px;
+  margin-left: -100px;
+  color: #6c757d;
 }
 
-span i{
-    margin-top: 0.3em;
-    margin-left: 1.8em;
+span i {
+  margin-top: 0.3em;
+  margin-left: 1.8em;
 }
 
 .item {
@@ -84,7 +82,7 @@ span i{
   cursor: pointer;
   width: auto;
   justify-content: space-around;
-  padding: 0.8rem;
+  padding: 0.5rem;
 }
 
 .container-items {
@@ -94,32 +92,62 @@ span i{
   max-width: 800px;
   width: 100%;
   font-size: 0.6rem;
+  margin-bottom: 2rem;
 }
 
-.container-items button{
-    font-size: 0.5rem;
-    padding: 0.3rem 0.5rem ;
-    border: none;
-    border-radius: 0.2rem;
-    background-color: #ffd166;
-    cursor: pointer;
+.container-items button {
+  font-size: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: #ffd166;
+  cursor: pointer;
 }
 
 .login-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 2rem rgba(0,0,0,0.5 );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.login-info-container{
-    width: 30%;
-    border-radius: 2rem 2rem;
-    background-color: white;
+.login-info-container {
+  width: 30%;
+  padding: 1.5rem;
+  border-radius: 1rem 1rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 1rem;
+}
+
+.text-1 {
+  font-size: 0.7rem;
+  display: flex;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+form {
     display: flex;
+    text-align: center;
+    justify-content: center;
     flex-direction: column;
-    justify-content:baseline;
-    align-items: center;
-    
+    width: 13rem;
+    padding: 0.2rem;
+}
+
+.input{
+    font-size: 0.6rem;
+    color: grey;
+    margin-bottom: 0.2rem;
+    border-radius: 0.2rem 0.2rem;
+    border: solid 1px gray;
+    padding: 5px;
 }
