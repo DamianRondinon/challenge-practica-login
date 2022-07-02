@@ -109,29 +109,31 @@ span i {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 5.5rem;
 }
 
 .login-info-container {
-  width: 30%;
+  width: 42%;
   padding: 1.5rem;
-  border-radius: 1rem 1rem;
+  border-radius: 1.5rem 1.5rem;
   background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: baseline;
-  align-items: center;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .title {
-  font-size: 1rem;
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  display: flex;
+  text-align:start;
+  justify-content: center;
 }
 
 .text-1 {
-  font-size: 0.7rem;
+  font-size: 1.3rem;
   display: flex;
   text-align: center;
-  padding: 0.5rem;
+  padding: 1rem;
+  
 }
 
 form {
@@ -139,15 +141,77 @@ form {
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    width: 13rem;
+    width: 25rem;
     padding: 0.2rem;
 }
 
 .input{
-    font-size: 0.6rem;
-    color: grey;
-    margin-bottom: 0.2rem;
+    font-size: 0.8rem;
+    color: #8b8c89;
+    margin-bottom: 0.6rem;
     border-radius: 0.2rem 0.2rem;
-    border: solid 1px gray;
-    padding: 5px;
+    border: solid 1px #d3d3d3;
+    padding: 10px;
+}
+
+.text-2{
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: first baseline;
+    padding: 0.5rem;
+}
+
+.login-info-container button{
+  font-size: 0.8rem;
+  padding: 0.9rem 10rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: #ffd166;
+  cursor: pointer;
+  margin-top: 1.1rem;
+  margin-left: 1.4rem;
+  
+}
+
+.h6-1{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.h6-1::after, .h6-1::before{
+  content: "";
+  width: 10px;
+  height: 1px;
+  background-color: black;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.login-container img{
+  width: 6rem;
+  margin-left: 1.8rem;
+}
+
+.h6-2 {
+    display: flex;
+    justify-content: center;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.h6-3 {
+    color: rgb(0, 0, 0);
+    font-size: rem;
+    font-weight: bold;
+    
+}
+
+.final{
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
 }
