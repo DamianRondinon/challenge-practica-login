@@ -118,6 +118,9 @@ span i {
   border-radius: 1.5rem 1.5rem;
   background-color: white;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
