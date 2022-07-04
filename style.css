@@ -23,7 +23,7 @@ body {
     url(imgs/Principal.png);
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 a {
