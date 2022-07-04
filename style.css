@@ -90,7 +90,6 @@ span i {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  max-width: 800px;
   width: 100%;
   font-size: 0.8rem;
   margin-bottom: 2rem;
@@ -113,7 +112,7 @@ span i {
 }
 
 .login-info-container {
-  width: 40%;
+  width: 30%;
   padding: 1rem;
   border-radius: 1rem 1rem;
   background-color: white;
