@@ -113,7 +113,7 @@ span i {
 }
 
 .login-info-container {
-  width: 40%;
+  width: 30rem;
   padding: 1rem;
   border-radius: 1rem 1rem;
   background-color: white;
@@ -191,7 +191,7 @@ form {
 
 .login-container img{
   width: 6rem;
-  margin-left: 1.6rem;
+  margin-left: 2rem;
 }
 
 .h6-2 {
